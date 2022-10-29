@@ -362,9 +362,7 @@ transition: opacity 250ms var(--timing-function);
 }
 
 .form-field{
-	/* outline: 1px solid red; */
 	margin-bottom: 10px;
-	
 }
 
 .form-label{
@@ -376,6 +374,12 @@ transition: opacity 250ms var(--timing-function);
 
 .form-thumb{
 position: relative;
+
+transition: fill 250ms var(--timing-function);
+}
+
+.form-thumb:hover {
+	fill: var(--accent-color);
 }
 
 
@@ -391,14 +395,7 @@ position: relative;
 	transition: fill 250ms var(--timing-function) ;
 }
 
-.form-thumb:hover{
-	fill: var(--accent-color);
-	}
 
-
-	.form-input, .form-input:focus ~ .form-icon {
-		fill: var(--accent-color);
-	}
 
 .form-input{
 	margin-top: 4px;
@@ -412,6 +409,11 @@ position: relative;
 	cursor: pointer;
 
 	transition: border 250ms var(--timing-function);
+}
+
+.form-input,
+.form-input:focus~.form-icon {
+	fill: var(--accent-color);
 }
 
 .form-input:hover,
