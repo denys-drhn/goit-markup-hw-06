@@ -392,9 +392,10 @@ transition: fill 250ms var(--timing-function);
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 16px;
-	line-height: 1.25;
-	letter-spacing: 0.03em;
+	font-size: 12px;
+	line-height: 1.16;
+	letter-spacing: 0.01em;
+	
 	color: var(--primery-text-color);
 
 	border: 1px solid rgba(33, 33, 33, 0.2);
@@ -431,8 +432,6 @@ transition: fill 250ms var(--timing-function);
 	letter-spacing: 0.01em;
 
 	color: var(--primery-text-color);
-
-	
 
 	border: 1px solid rgba(33, 33, 33, 0.2);
 	border-radius: 4px;
